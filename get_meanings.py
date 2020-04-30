@@ -5,7 +5,7 @@ from googletrans import Translator
 # from vocabulary.vocabulary import Vocabulary as vb
 
 # Reading and storing the CSV file as a dataframe
-df = pd.read_csv('content/input.csv', names = ["Word", "Meaning", "Hindi", "Bangla"])
+df = pd.read_csv('input.csv', names = ["Word", "Meaning", "Hindi", "Bangla"])
 # df.head(20)
 
 translator = Translator()
